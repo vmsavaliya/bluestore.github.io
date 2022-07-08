@@ -100,9 +100,9 @@ p{
 /*small container edit whole section consist of rows*/
 .small container{
   max-width: 1080px;
-  margin:auto;/*make images in center*/
-  padding-left: 25px;
-  padding-right: 25px;
+  margin:auto;  /*make images in center */
+  padding-left: 30px;
+  padding-right: 30px;
 }
 /*col-4 will edit col of images*/
 .col-4{
@@ -344,9 +344,9 @@ select:focus{
   margin-top: 80px;
 }
 .single-product .col-2 img{
-  
   padding: 0;
 }
+
 .single-product .col-2{
   padding: 20px;
   text-align: left;
