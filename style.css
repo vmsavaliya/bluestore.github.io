@@ -43,7 +43,7 @@ p{
 /*dividing text and image in haif*/
 .row{
   display: flex;/*flexible content*/
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;/*wrap place single line or multi lines in given space.*/ 
   justify-content: space-around;/*"Display the flex items with space before, between, and after the lines:"*/
 }
@@ -53,7 +53,7 @@ p{
 }
 .col-2 img{
   max-width: 100%;/*should not be more than 100%*/
-  padding: 50px 0px;/*top bottom 50, left right 0*/
+  padding: 35px 60px;/*top bottom 35, left right 0*/
 }
 .col-2 h1{
   font-size: 50px;
@@ -82,7 +82,7 @@ p{
   background: radial-gradient(#fff,#aab8ff);
 }
 .header .row{
-  margin-top: 75px;
+  margin-top: 50px;
 }
 /*for featured categories are*/
 .categories{
@@ -156,7 +156,7 @@ h4{
 /*offer section*/
 
 .offer{
-  background: radial-gradient(#fff, #aab8ff);
+  background: radial-gradient(#fff,#aab8ff);
   margin-top: 80px;
   padding: 30px;
 }
@@ -241,7 +241,7 @@ small{
 }
 .footer-col-2{
   flex: 1;/*flex 1 is used to fill complete occupy given space*/
-  text-align: center;
+  text-align: -webkit-center;
 }
 .footer-col-2 img{
   width: 180px;/*editing image in col2*/
@@ -323,7 +323,7 @@ select:focus{
   outline: none;/*the issue was when create red border above, it shows red border but upon selecting other option it again becomes black, so we set outline none upon clicking and for clicking or tabing, focus is used*/ 
 }
 .page-btn{
-  margin: 0 auto 80px;
+  margin: 0 450px 70px;
 }
 .page-btn span{/*desigining pages no button which we have made using span tag*/
   display: inline-block;
@@ -538,8 +538,10 @@ form a{
   .col-2, .col-3,.col-4{/*for all columns view on mobile, we want one column single line occupying 100% width we not want 3 or 4 in single line*/
       flex-basis: 100%;
   }
+  
   /*for single product detail page*/
   .single-product .row{
+
       text-align: left;
   }
   .single-product .col-2{
